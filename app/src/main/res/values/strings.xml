@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Manager</string>
+    <string name="input">Enter</string>
+    <string name="btnAddText">Add</string>
+    <string name="btnEditText">Edit</string>
+    <string name="btnDeleteText">Delete</string>
+</resources>

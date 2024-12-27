@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list">
+        <item>1. Social Media</item>
+        <item>2. Bank</item>
+        <item>3. E-Commerce</item>
+        <item>4. Game</item>
+        <item>5. Transportation</item>
+    </string-array>
+</resources>

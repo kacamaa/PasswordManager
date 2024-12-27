@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Edit"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_tittle"
+        android:text="Edit New Account"
+        android:textSize="30sp"
+        android:textColor="@color/primary"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"/>
+
+    <Spinner
+        android:id="@+id/edit_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:hint="Email or Phone No."
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:id="@+id/emailphone_Edit"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:hint="Username"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:id="@+id/username_Edit"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:id="@+id/password_Edit"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:text="Edit Account"
+        android:backgroundTint="@color/primary"
+        android:id="@+id/editbtn"
+        android:textSize="29dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:text="Delete Account"
+        android:backgroundTint="@color/primary"
+        android:id="@+id/deletebtn"
+        android:textSize="29dp"/>
+
+</LinearLayout>
